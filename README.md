@@ -12,6 +12,15 @@ This repository is responsible for:
 
 This repository is **not the source of truth for knowledge content**.
 
+## Local BagelQuant workspace
+
+For local development, this repository is one independently versioned
+submodule of `bagelquant-workspace`, beside `bagelquant-data`,
+`bagelquant-core`, `bagelquant-bt`, and `bagelquant-workbench`. The workspace
+repository pins component commits but does not merge their histories. Shared
+numerical data lives in the ignored workspace-level `data/` directory and is
+never owned or published by this website repository.
+
 ## Architecture
 
 The system separates content, code, and website infrastructure.

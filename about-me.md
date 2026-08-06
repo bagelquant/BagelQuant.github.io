@@ -102,6 +102,7 @@ Building tools and infrastructure including (link to GitHub repos):
 * [bagelquant-core](https://github.com/bagelquant/bagelquant-core)
 * [bagelquant-data](https://github.com/bagelquant/bagelquant-data)
 * [bagelquant-bt](https://github.com/bagelquant/bagelquant-bt)
+* [bagelquant-workbench](https://github.com/bagelquant/bagelquant-workbench)
 
 ## Technical Stack
 
