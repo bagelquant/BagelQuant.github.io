@@ -543,3 +543,11 @@ Code
 Author once.
 
 Publish automatically.
+
+## Build provenance
+
+Every Pages artifact includes `source-revisions.json` at its root. It records
+this site and the exact Content, Core, Data and BT commits checked out for that
+build, together with tracked-change flags. Aggregation remains independent of
+the workspace's numerical-data and Workbench repositories. For a local check,
+run `python scripts/source_revisions.py --workspace .. --output _site/source-revisions.json`.
